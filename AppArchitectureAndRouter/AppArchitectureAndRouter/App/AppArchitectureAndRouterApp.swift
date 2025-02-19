@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct AppArchitectureAndRouterApp: App {
+    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
         }
     }
 }
